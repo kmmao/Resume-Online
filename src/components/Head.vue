@@ -35,7 +35,7 @@
       >p {
         width: 90px;
         height: 80px;
-        background: url(//oy5vxcq55.bkt.clouddn.com/ssl.png);
+        background: url(http://oy5vxcq55.bkt.clouddn.com/ssl.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 50%;
