@@ -3,7 +3,7 @@
     <ul>
       <li>
         <div class="show">
-          <img src="//oy5vxcq55.bkt.clouddn.com/project1.png" alt="">
+          <img src="http://oy5vxcq55.bkt.clouddn.com/project1.png" alt="">
           <p>在线简历编辑器<a href="https://github.com/luoshushu/vue-resume" target="_blank" title="点击查看源码">源码</a><a href="https://luoshushu.github.io/vue-resume/dist/index.html" target="_blank" title="点击预览效果">预览</a></p>
         </div>
         <div class="text">
@@ -42,7 +42,7 @@
       </li>
       <li>
         <div class="show">
-          <img src="//oy5vxcq55.bkt.clouddn.com/project2.png" alt="">
+          <img src="http://oy5vxcq55.bkt.clouddn.com/project2.png" alt="">
           <p>豆瓣电影<a href="https://github.com/luoshushu/douban" target="_blank" title="点击查看源码">源码</a><a href="https://luoshushu.github.io/douban/index.html" target="_blank" title="点击预览效果">预览</a></p>
         </div>
         <div class="text">
@@ -69,7 +69,7 @@
       </li>
       <li>
         <div class="show">
-          <img src="//oy5vxcq55.bkt.clouddn.com/project3.png" alt="">
+          <img src="http://oy5vxcq55.bkt.clouddn.com/project3.png" alt="">
           <p>pc端在线音乐FM<a href="https://github.com/luoshushu/MusicFm" target="_blank" title="点击查看源码">源码</a><a href="https://luoshushu.github.io/MusicFm/index.html" target="_blank" title="点击预览效果">预览</a></p>
         </div>
         <div class="text">
@@ -96,7 +96,7 @@
       </li>
       <li>
         <div class="show">
-          <img src="//oy5vxcq55.bkt.clouddn.com/project4.png" alt="">
+          <img src="http://oy5vxcq55.bkt.clouddn.com/project4.png" alt="">
           <p>微信小程序天气预报<a href="//github.com/luoshushu/weixin-weather" target="_blank" title="点击查看源码">源码</a><a href="http://oy5vxcq55.bkt.clouddn.com/weather.jpg" target="_blank" title="点击预览效果">预览</a></p>
         </div>
         <div class="text">

@@ -56,7 +56,7 @@
     flex-direction: column;
     font-family: 'Merriweather Sans', sans-serif;
     >.head {
-      background: url(//oy5vxcq55.bkt.clouddn.com/beijing.jpg);
+      background: url(http://oy5vxcq55.bkt.clouddn.com/beijing.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 50% 50%;
@@ -82,7 +82,7 @@
     }
     >.rump {
       overflow: hidden;
-      background: url(//oy5vxcq55.bkt.clouddn.com/bottom.jpg);
+      background: url(http://oy5vxcq55.bkt.clouddn.com/bottom.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 50% 50%;
