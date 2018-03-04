@@ -4,38 +4,30 @@
       <li>
         <div class="show">
           <img src="http://oy5vxcq55.bkt.clouddn.com/project1.png" alt="">
-          <p>在线简历编辑器<a href="https://github.com/luoshushu/vue-resume" target="_blank" title="点击查看源码">源码</a><a href="https://luoshushu.github.io/vue-resume/dist/index.html" target="_blank" title="点击预览效果">预览</a></p>
+          <p>
+            在线简历编辑器
+            <a href="https://github.com/luoshushu/vue-resume" target="_blank" title="点击查看源码">源码</a>
+            <a href="https://luoshushu.github.io/vue-resume/dist/index.html" target="_blank" title="点击预览效果">预览</a>
+            <a href="//www.jianshu.com/p/6f695b5f3740" target="_blank" title="点击查看笔记">笔记</a>
+          </p>
         </div>
         <div class="text">
           <div class="intro">
             <h2>功能介绍</h2>
             <p>
-              在线简历编辑、预览
+              在线简历编辑、预览、登录(未实现)
             </p>
           </div>
           <div class="intro">
             <h2>技术细节</h2>
             <p>
-              预览按钮： 原理当点击预览按钮时，把头部、左边的这两个区域的内容给隐藏就可以了 display: none。 当点退出预览时，即 display: block.
-              <a href="//www.jianshu.com/p/6f695b5f3740" target="_blank">阅读全文</a>
+              该项目分为用户登录模块、简历编辑模块、简历预览模块。使用vue-cli快速构建项目，flex进行布局，ElementUI框架实现登录/注册、注册、输入框等，用iconfont图标库实现tab切换的图标，运用scss预处理语言编写css，vue组件通讯。
             </p>
           </div>
           <div class="intro">
             <h2>技术栈</h2>
             <p>
-              webpack ----打包神器
-            </p>
-            <p>
-              vue-cli ----快速构建项目
-            </p>
-            <p>
-              scss ----方便的css
-            </p>
-            <p>
-              element-ui ---- UI组件库
-            </p>
-            <p>
-              normalize.css ---- 重置掉该重置的样式
+              webpack + vue-cli + scss + element-ui + normalize.css + flex + iconfont
             </p>
           </div>
         </div>
@@ -43,7 +35,11 @@
       <li>
         <div class="show">
           <img src="http://oy5vxcq55.bkt.clouddn.com/project2.png" alt="">
-          <p>豆瓣电影<a href="https://github.com/luoshushu/douban" target="_blank" title="点击查看源码">源码</a><a href="https://luoshushu.github.io/douban/index.html" target="_blank" title="点击预览效果">预览</a></p>
+          <p>豆瓣电影
+            <a href="https://github.com/luoshushu/douban" target="_blank" title="点击查看源码">源码</a>
+            <a href="https://luoshushu.github.io/douban/index.html" target="_blank" title="点击预览效果">预览</a>
+            <a href="https://www.jianshu.com/p/728cf113a662" target="_blank" title="点击查看笔记">笔记</a>
+          </p>
         </div>
         <div class="text">
           <div class="intro">
@@ -55,41 +51,72 @@
           <div class="intro">
             <h2>技术细节</h2>
             <p>
-              问题：如何判断滚动到底部？ 页面面板总长度 = 视窗高度 + 滚动高度 页面面板总长度 ： $('section').eq(0).height() 视窗高度 ：$('main').height() 滚动高度 ：$('main').scrollTop()
-              <a href="//www.jianshu.com/p/728cf113a662" target="_blank">阅读全文</a>
+              运用jQuery开发操作，AJAX与豆瓣API实现数据交互，RequireJS，对象等模块化开发。用iconfont图标库实现页面切换的图标.
             </p>
           </div>
           <div class="intro">
             <h2>技术栈</h2>
             <p>
-              运用jQuery开发操作，ajax实现数据交互，豆瓣API,RequireJS，对象等模块化开发
-            </p>
+              jQuery + AJAX + RequireJS + iconfont </p>
           </div>
         </div>
       </li>
       <li>
         <div class="show">
           <img src="http://oy5vxcq55.bkt.clouddn.com/project3.png" alt="">
-          <p>pc端在线音乐FM<a href="https://github.com/luoshushu/MusicFm" target="_blank" title="点击查看源码">源码</a><a href="https://luoshushu.github.io/MusicFm/index.html" target="_blank" title="点击预览效果">预览</a></p>
+          <p>
+            PC端在线音乐FM
+            <a href="https://github.com/luoshushu/MusicFm" target="_blank" title="点击查看源码">源码</a>
+            <a href="https://luoshushu.github.io/MusicFm/index.html" target="_blank" title="点击预览效果">预览</a>
+            <a href="//www.jianshu.com/p/eb31c0fd953c" target="_blank" title="点击查看笔记">笔记</a>
+          </p>
         </div>
         <div class="text">
           <div class="intro">
             <h2>功能介绍</h2>
             <p>
-              音乐的播放、暂停、音量大小调节、歌词显示、音乐分类、点击进度条实现相应的播放时段
-            </p>
+              音乐的播放、暂停、下一曲、音量大小调节、歌词显示、音乐分类、点击进度条实现相应的播放时段 </p>
           </div>
           <div class="intro">
             <h2>技术细节</h2>
             <p>
-              音乐分类左右滚动按钮: 当点击左/右按钮，让当前ul做 一个移动，移动当前ul的宽度 li的个数 = Math.floor（list容器的宽度/当前每一个li的宽度） left = li的个数*当前每一个li的宽度
-              <a href="//www.jianshu.com/p/eb31c0fd953c" target="_blank">阅读全文</a>
+              运用jQuery进行DOM操作，AJAX实现数据(API)交互，webpack构建工具进行打包压缩，jQuery编写插件实现歌词的跳动，用iconfont图片库实现播放、暂停、下一曲等按钮。
             </p>
           </div>
           <div class="intro">
             <h2>技术栈</h2>
             <p>
-              运用jQuery开发操作，ajax实现数据交互，百度音乐的API，webpack构建工具进行打包压缩
+              jQuery + AJAX + webpack + iconfont
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="show">
+          <img src="http://oy5vxcq55.bkt.clouddn.com/project5.png" alt="">
+          <p>
+            Canvas手机画板
+            <a href="https://github.com/luoshushu/Mobile-palette" target="_blank" title="点击查看源码">源码</a>
+            <a href="https://luoshushu.github.io/Mobile-palette/index.html" target="_blank" title="点击预览效果">预览</a>
+            <a href="https://www.jianshu.com/p/c3b97bd71271" target="_blank" title="点击查看笔记">笔记</a>
+          </p>
+        </div>
+        <div class="text">
+          <div class="intro">
+            <h2>功能介绍</h2>
+            <p>
+              支持手机端，包含画笔、橡皮擦、下载、清空、随机画笔颜色的功能。
+            </p>
+          </div>
+          <div class="intro">
+            <h2>技术细节</h2>
+            <p>
+              使用原生JS操作HTML,用canvas API实现页面功能，iconfont实现笔、橡皮擦、下载、清空等的图标，CSS进行页面渲染以及功能区域的定位，少量ES6用于声明。 </p>
+          </div>
+          <div class="intro">
+            <h2>技术栈</h2>
+            <p>
+              原生JavaScript + canvas API + iconfont + ES6 + CSS
             </p>
           </div>
         </div>
@@ -97,18 +124,24 @@
       <li>
         <div class="show">
           <img src="http://oy5vxcq55.bkt.clouddn.com/project4.png" alt="">
-          <p>微信小程序天气预报<a href="//github.com/luoshushu/weixin-weather" target="_blank" title="点击查看源码">源码</a><a href="http://oy5vxcq55.bkt.clouddn.com/weather.jpg" target="_blank" title="点击预览效果">预览</a></p>
+          <p>
+            微信小程序天气预报
+            <a href="//github.com/luoshushu/weixin-weather" target="_blank" title="点击查看源码">源码</a>
+            <a href="http://oy5vxcq55.bkt.clouddn.com/weather.jpg" target="_blank" title="点击预览效果">预览</a>
+            <a href="" target="_blank" title="点击查看笔记">笔记</a>
+          </p>
         </div>
         <div class="text">
           <div class="intro">
             <h2>功能介绍</h2>
             <p>
-              今日天气情况，近期10天的天气情况
+              今日天气情况，近期七天的天气情况
             </p>
           </div>
           <div class="intro">
             <h2>技术细节</h2>
             <p>
+              使用JavaScript操作数据，wxml页面基础架构， wxss页面渲染。
             </p>
           </div>
           <div class="intro">
@@ -188,8 +221,8 @@
             font-size: 16px;
             >a {
               font-size: 12px;
-              color: #F69027;
-              border: 1px solid #F69027;
+              color: #f69027;
+              border: 1px solid #f69027;
               padding: 0 10px;
               border-radius: 10px;
               margin: 5px;
@@ -200,7 +233,6 @@
             }
           }
         }
-      
       }
     }
   }

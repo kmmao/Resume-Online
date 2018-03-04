@@ -48,7 +48,6 @@
       }
       >h2 {
         font-size: 16px;
-        margin-top: 10px;
         color: #fff;
               
 
