@@ -21,7 +21,7 @@
     </div>
     <div class="download">
       <h2>下载我的简历</h2>
-      <a href="//p55aubazl.bkt.clouddn.com/%E5%BA%94%E8%81%98%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88-%E8%8B%8F%E5%AE%8B%E9%9C%96-17688877028.pdf" download title="点击下载我的简历">Download</a>
+      <a href="http://p55bxl1en.bkt.clouddn.com/%E5%BA%94%E8%81%98%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88-%E8%8B%8F%E5%AE%8B%E9%9C%96-17688877028.pdf" download title="点击下载我的简历">Download</a>
     </div>
   </div>
 </template>
