@@ -22,7 +22,7 @@ Email：17688877028@163.com
 
 Github：https://github.com/luoshushu
 
-期望薪资：税前月薪8k~10k
+期望薪资：税前月薪8k~12k
 
 期望城市：广州
 
