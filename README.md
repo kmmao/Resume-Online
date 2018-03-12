@@ -22,7 +22,7 @@ Email：17688877028@163.com
 
 Github：https://github.com/luoshushu
 
-期望薪资：税前月薪8k~12k
+期望薪资：税前月薪7k~10k
 
 期望城市：广州
 
@@ -39,7 +39,7 @@ Github：https://github.com/luoshushu
 
 技术细节： 运用jQuery开发操作，AJAX与豆瓣API实现数据交互，RequireJS，对象等模块化开发。用iconfont图标库实现页面切换的图标。
 
-技术栈：jQuery + AJAX + RequireJS + iconfont
+技术栈：jQuery + Ajax + RequireJS + iconfont
 
 [预览链接](https://luoshushu.github.io/douban/index.html) [代码地址](https://github.com/luoshushu/douban) [简书总结](https://www.jianshu.com/p/728cf113a662)
 
